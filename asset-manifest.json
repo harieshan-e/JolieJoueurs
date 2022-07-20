@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/joliejoueurs/static/css/main.f31b271e.css",
-    "main.js": "/joliejoueurs/static/js/main.2f7de6f8.js",
+    "main.js": "/joliejoueurs/static/js/main.b4785343.js",
     "static/media/arteezy.jpg": "/joliejoueurs/static/media/arteezy.c83d382d1212cb186749.jpg",
     "static/media/jerax.jpg": "/joliejoueurs/static/media/jerax.27f9b78380b422c9818e.jpg",
     "static/media/smash.png": "/joliejoueurs/static/media/smash.204b1c510f5501b0b3bf.png",
@@ -38,10 +38,10 @@
     "static/media/super.png": "/joliejoueurs/static/media/super.28639b98cce682773e6f.png",
     "index.html": "/joliejoueurs/index.html",
     "main.f31b271e.css.map": "/joliejoueurs/static/css/main.f31b271e.css.map",
-    "main.2f7de6f8.js.map": "/joliejoueurs/static/js/main.2f7de6f8.js.map"
+    "main.b4785343.js.map": "/joliejoueurs/static/js/main.b4785343.js.map"
   },
   "entrypoints": [
     "static/css/main.f31b271e.css",
-    "static/js/main.2f7de6f8.js"
+    "static/js/main.b4785343.js"
   ]
 }
