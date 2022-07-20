@@ -10,7 +10,7 @@ const Mission = () => {
     </div>
     <div class="container-lg">
       <div class="row">
-        <div class="col-lg-6 mt-5">
+        <div class="col-lg-6 mt-5 ">
           <img src={missionImage} class="mission" alt="missionImage"/> 
         </div>
       

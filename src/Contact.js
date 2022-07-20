@@ -8,13 +8,13 @@ const Contact = () => {
     <div class="container-lg my-5">
       <div class="row">
 
-        <div class="card text-dark   col-lg-12 mb-3" style={{backgroundColor: "#ff8906"}}>
+        <div class="card text-dark   col-lg-12 mb-3" >
           <div class="card-header fw-bold fs-4">Telephone + Courriel</div>
           <div class="card-body">
             <p class="card-text fs-5">Veuillez nous contacter pour toute question.</p>
             <span class="input-group-text my-4 fs-5">
               <i class="bi bi-envelope-fill"></i>
-              &nbsp;joliejoeurs@gmail.com
+              &nbsp;joliejoueurs@gmail.com
             </span>
             <span class="input-group-text my-4 fs-5">
               <i class="bi bi-telephone-fill"></i>
@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div class="card text-dark   col-lg-12 mb-3" style={{backgroundColor: "#ff8906"}}>
+        <div class="card text-dark   col-lg-12 mb-3" >
           <div class="card-header fw-bold fs-4">Location</div>
           <div class="card-body">
             <p class="card-text fs-5">Rendez-nous visite à notre bureau.</p>

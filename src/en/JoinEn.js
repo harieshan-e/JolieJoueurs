@@ -17,8 +17,8 @@ const JoinEn = () => {
                   <span class="input-group-text">
                     <i class="bi bi-person-fill text-secondary"></i>
                   </span>
-                  <input type="text" class="form-control" placeholder="Prénom" aria-label="FirstName" id="firstName" required/>
-                  <input type="text" class="form-control" placeholder="Nom de Famille" aria-label="LastName" id="lastName" required/>
+                  <input type="text" class="form-control" placeholder="First Name" aria-label="FirstName" id="firstName" required/>
+                  <input type="text" class="form-control" placeholder="Last Name" aria-label="LastName" id="lastName" required/>
                 </div>
     
                 <label for="email" class="form-label fs-5">Email and Phone Number:</label>
@@ -26,7 +26,7 @@ const JoinEn = () => {
                   <span class="input-group-text">
                     <i class="bi bi-envelope-fill text-secondary"></i>
                   </span>
-                  <input type="text" id="email" class="form-control" placeholder="e.g. nom@exemple.com" required/>
+                  <input type="text" id="email" class="form-control" placeholder="e.g. nom@example.com" required/>
                   <span class="input-group-text">
                     <i class="bi bi-telephone-fill"></i>
                   </span>

@@ -17,8 +17,8 @@ const Join = () => {
                 <span class="input-group-text">
                   <i class="bi bi-person-fill text-secondary"></i>
                 </span>
-                <input type="text" class="form-control" placeholder="Prénom" aria-label="FirstName" id="firstName" required/>
-                <input type="text" class="form-control" placeholder="Nom de Famille" aria-label="LastName" id="lastName" required/>
+                <input type="text" class="form-control" placeholder="Prénom" aria-label="FirstName" id="firstName" required onInvalid={e => e.target.setCustomValidity("Veuillez remplir ce champ.")}onInput={e => e.target.setCustomValidity("")}/>
+                <input type="text" class="form-control" placeholder="Nom de Famille" aria-label="LastName" id="lastName" required onInvalid={e => e.target.setCustomValidity("Veuillez remplir ce champ.")}onInput={e => e.target.setCustomValidity("")}/>
               </div>
   
               <label for="email" class="form-label fs-5">Courriel et Numéro de Téléphone :</label>
@@ -26,11 +26,11 @@ const Join = () => {
                 <span class="input-group-text">
                   <i class="bi bi-envelope-fill text-secondary"></i>
                 </span>
-                <input type="text" id="email" class="form-control" placeholder="e.g. nom@exemple.com" required/>
+                <input type="text" id="email" class="form-control" placeholder="e.g. nom@exemple.com" required onInvalid={e => e.target.setCustomValidity("Veuillez remplir ce champ.")}onInput={e => e.target.setCustomValidity("")}/>
                 <span class="input-group-text">
                   <i class="bi bi-telephone-fill"></i>
                 </span>
-                <input type="text" id="phone" class="form-control fs-5" placeholder="e.g. 999-999-9999" required/>
+                <input type="text" id="phone" class="form-control fs-5" placeholder="e.g. 999-999-9999" required onInvalid={e => e.target.setCustomValidity("Veuillez remplir ce champ.")}onInput={e => e.target.setCustomValidity("")}/>
               </div>
   
               <label for="serviceSelection" class="form-label fs-5">Quel équipe aimeriez-vous joindre?</label>
@@ -38,7 +38,7 @@ const Join = () => {
                 <span class="input-group-text">
                   <i class="bi bi-controller"></i>
                 </span>
-                <select class="form-select" id="serviceSelection" required>
+                <select class="form-select" id="serviceSelection" required onInvalid={e => e.target.setCustomValidity("Veuillez remplir ce champ.")}onInput={e => e.target.setCustomValidity("")}>
                   <option value="select" disabled selected>Sélectionnez un Équipe</option>
                   <option value="examen">Dota 2</option>
                   <option value="nettoyage">League of Legends</option>
@@ -51,7 +51,7 @@ const Join = () => {
   
               <div class="form-group">
                 <label for="exampleFormControlTextarea1" class="fs-5">Pourquoi pensez-vous que vous feriez on bon membre de l'equipe?</label>
-                <textarea class="form-control" id="goodMember" rows="3" required></textarea>
+                <textarea class="form-control" id="goodMember" rows="3" required onInvalid={e => e.target.setCustomValidity("Veuillez remplir ce champ.")}onInput={e => e.target.setCustomValidity("")}></textarea>
               </div>
               <div class="my-4 text-center">
                 <button id="submitApp" type="submit" class="btn-lg btn-secondary" style={{backgroundColor: "#ff8906", color: "black"}}>Soumettre</button>
