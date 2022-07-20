@@ -37,8 +37,8 @@ const Achievements = () => {
     });
 
     return ( 
-        <section id="dotaAchievements" class="">
-
+        <section id="achievements" class="">
+            <br/>
         <div class="text-center text-white mt-5">
             <h2>Nos Accomplissements</h2>
         </div>

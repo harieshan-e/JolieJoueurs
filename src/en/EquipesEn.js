@@ -4,6 +4,7 @@ import overwatch from '../assets/overwatch.jpg'
 import rocketleague from '../assets/rocketleague.jpg'
 import smash from '../assets/smash.png'
 import valorant from '../assets/valorant.jpg'
+import { Link } from "react-router-dom"
 
 const EquipesEn = () => {
     return (  
@@ -15,62 +16,62 @@ const EquipesEn = () => {
         <div class="row row-cols-1 row-cols-xl-3 g-4 mt-4">
           <div class="col">
             <div class="textcontainer">
-              <a href="/dota2">
+              <Link className = "link" to="/dota2"> 
                 <img src={dota} class="logos" id="dota"  alt=""/>
                 <div class="overlay">
                   <div class="hovertext">Dota 2</div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="col">
             <div class="textcontainer">
-              <a href="/league">
+              <Link className = "link" to="/league"> 
                 <img src={league} class="logos" id="league" alt=""/>
                 <div class="overlay">
                   <div class="hovertext">League of Legends</div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="col">
             <div class="textcontainer">
-              <a href="/overwatch">
+              <Link className = "link" to="/overwatch"> 
                 <img src={overwatch} class="logos" id="overwatch" alt=""/>
                 <div class="overlay">
                   <div class="hovertext">Overwatch</div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="col">
             <div class="textcontainer">
-              <a href="/valorant">
+              <Link className = "link" to="/valorant"> 
                 <img src={valorant} class="logos" id="valorant" alt=""/>
                 <div class="overlay">
                   <div class="hovertext">Valorant</div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="col">
             <div class="textcontainer">
-              <a href="/smash">
+              <Link className = "link" to="/smash"> 
                 <img src={smash} class="logos" id="smash" alt=""/>
                 <div class="overlay">
                   <div class="hovertext">Super Smash Bros. Ultimate</div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="col">
             <div class="textcontainer">
-              <a href="/rocketleague">
+              <Link className = "link" to="/rocketleague"> 
                 <img src={rocketleague} class="logos" id="rocket" alt=""/>
                 <div class="overlay">
                   <div class="hovertext">Rocket League</div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

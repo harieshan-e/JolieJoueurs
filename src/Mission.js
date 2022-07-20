@@ -19,7 +19,7 @@ const Mission = () => {
           Nous sommes une organisation esports de renommée mondiale qui présente certains des meilleurs joueurs du monde dans plusieurs jeux compétitifs. Nous jouons sur les plus grandes scènes du monde non seulement pour concourir pour les plus grands honneurs dans le monde du jeu, mais aussi pour offrir à nos fans un spectacle qu'ils n'oublieront jamais. <br/><br/>
 
 Nous avons été fondés dans le but de rassembler les meilleurs joueurs du monde et de forger une culture positive avec notre équipe et nos fans. Être un Jolie Joueur signifie beaucoup plus que d'être simplement Jolie. Nous avons cultivé un environnement gagnant, où nos coéquipiers et nos adversaires sont traités avec le même respect.  <br/>
-
+          
           </p>
         </div>
       </div>

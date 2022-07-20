@@ -1,4 +1,12 @@
+import {Link, Routes, Route, useNavigate} from 'react-router-dom';
+
+
 const Join = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    alert("Nous avons reçu votre demande d'inscription. Un membre de notre équipe vous contactera bientôt. Merci!")
+  }
+
     return ( 
         <section id="join" class="bg-light mt-5">
           <br/>      <br/>       <br/>
@@ -11,7 +19,7 @@ const Join = () => {
         <div class="row justify-content-center my-5">
           <div class="col-lg-6">
   
-            <form name="bookAppointment" action="/confirmation">
+            <form name="bookAppointment" onSubmit={handleSubmit}>
               <label for="name" class="form-label fs-5">Nom:</label>
               <div class="input-group mb-4">
                 <span class="input-group-text">
@@ -54,7 +62,8 @@ const Join = () => {
                 <textarea class="form-control" id="goodMember" rows="3" required onInvalid={e => e.target.setCustomValidity("Veuillez remplir ce champ.")}onInput={e => e.target.setCustomValidity("")}></textarea>
               </div>
               <div class="my-4 text-center">
-                <button id="submitApp" type="submit" class="btn-lg btn-secondary" style={{backgroundColor: "#ff8906", color: "black"}}>Soumettre</button>
+                
+                <button id="liveAlertBtn" type="submit" class="btn-lg btn-secondary" style={{backgroundColor: "#ff8906", color: "black"}}>Soumettre</button>
               </div>
             </form>
           </div>

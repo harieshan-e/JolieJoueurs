@@ -15,11 +15,15 @@ import Achievements from './Achievements';
 import Comments from './Comments';
 import Confirmation from './Confirmation';
 import NotFound from './NotFound';
+import ScrollToTop from './ScrolltoTop';
+import TeamsTopbar from './TeamsTopbar';
+import "./fonts/Oswald-VariableFont_wght.ttf"
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className="App">
         <div className="content">
           <Switch>
@@ -40,37 +44,37 @@ function App() {
               <JoinEn/>
             </Route>
             <Route path="/dota2">
-              <Topbar/>
+              <TeamsTopbar/>
               <Team/>
               <Achievements/>
               <Comments/>
             </Route>
             <Route path="/league">
-              <Topbar/>
+              <TeamsTopbar/>
               <Team/>
               <Achievements/>
               <Comments/>
             </Route>
             <Route path="/overwatch">
-              <Topbar/>
+              <TeamsTopbar/>
               <Team/>
               <Achievements/>
               <Comments/>
             </Route>
             <Route path="/valorant">
-              <Topbar/>
+              <TeamsTopbar/>
               <Team/>
               <Achievements/>
               <Comments/>
             </Route>
             <Route path="/smash">
-              <Topbar/>
+              <TeamsTopbar/>
               <Team/>
               <Achievements/>
               <Comments/>
             </Route>
             <Route path="/rocketleague">
-              <Topbar/>
+              <TeamsTopbar/>
               <Team/>
               <Achievements/>
               <Comments/>

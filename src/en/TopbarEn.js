@@ -8,6 +8,7 @@ import { NavDropdown } from "react-bootstrap";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
+import { Link } from "react-router-dom"
 
 import "react-bootstrap-submenu/dist/index.css";
 
@@ -23,32 +24,32 @@ const TopbarEn = () => {
 
     <Navbar fixed="top" expand="lg"  style={{backgroundColor: "#ff8906"}}>
     <Container className="fs-5">
-      <Navbar.Brand href="/" className="fs-4">JolieJoueurs</Navbar.Brand>
+      <Navbar.Brand className="fs-4"><Link className = "link" to="/en">JolieJoueurs</Link> </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="justify-content-end" style={{ width: "100%" }}>
-          <Nav.Link href="/#mission" className="mx-1">Our Mission</Nav.Link>
-          <NavDropdown title="Our Teams" className="mx-1" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/dota2">Dota 2</NavDropdown.Item>
-            <NavDropdown.Item href="/league">League of Legends</NavDropdown.Item>
-            <NavDropdown.Item href="/overwatch">Overwatch</NavDropdown.Item>
-            <NavDropdown.Item href="/valorant">Valorant</NavDropdown.Item>
-            <NavDropdown.Item href="/smash">Super Smash Bros</NavDropdown.Item>
-            <NavDropdown.Item href="rocketleague">Rocket League</NavDropdown.Item>
+        <Nav className="me-auto justify-content-end" style={{ width: "100%" }}>
+          <Nav.Link href="/en#mission" className="mx-1">Our Mission</Nav.Link>
+          <NavDropdown title="Nos Équipes" className="mx-1" id="basic-nav-dropdown">
+            <NavDropdown.Item ><Link className = "link" to="/dota2">Dota 2 </Link> </NavDropdown.Item>
+            <NavDropdown.Item ><Link className = "link" to="/league">League of Legends</Link></NavDropdown.Item>
+            <NavDropdown.Item ><Link className = "link" to="/overwatch">Overwatch</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link className = "link" to="/valorant">Valorant </Link></NavDropdown.Item>
+            <NavDropdown.Item ><Link className = "link" to="/smash">Super Smash Bros </Link></NavDropdown.Item>
+            <NavDropdown.Item ><Link className = "link" to="/rocketleague">Rocket League </Link></NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="/#teams">
               Jump to Section
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/#contact" className="mx-1">Contact Us</Nav.Link>
-          <Nav.Link href="/#join" className="mx-1" >Join a Team</Nav.Link>
+          <Nav.Link href="/en#contact" className="mx-1">Contact Us</Nav.Link>
+          <Nav.Link href="/en#join" className="mx-1" >Join a Team</Nav.Link>
           <OverlayTrigger
             placement="bottom"
             delay={{ show: 500, hide: 400 }}
             overlay={renderTooltip}
           >
-            <Nav.Link href="/" className="mx-1" >
-          <i class="bi bi-globe2"></i> Fr</Nav.Link>
+          <Nav.Link className="mx-1" > <Link className = "link" to="/">
+          <i class="bi bi-globe2"></i> Fr </Link></Nav.Link>
           </OverlayTrigger>
         </Nav>
       </Navbar.Collapse>

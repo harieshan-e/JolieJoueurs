@@ -42,8 +42,9 @@ const Comments = () => {
 
     return ( 
         <section id="comments" class="mt-5">
+            <br/>
             <div class="text-center text-white 5">
-                <h2>Commentaires</h2>
+                <h2>Les Commentaires</h2>
             </div>
             <br/><br/><br/>
             

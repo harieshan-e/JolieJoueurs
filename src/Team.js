@@ -99,7 +99,7 @@ const Team = () => {
         game = "Rocket League"
       } 
     return ( 
-        <section id="dotaTeam" class="mt-5 text-white">
+        <section id="playersSection" class="mt-5 text-white">
             <br/>
             <div class="text-center text-white mt-5">
                 <h2>Notre Équipe {game}</h2>
