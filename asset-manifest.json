@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joliejoueurs/static/css/main.0dfdedfd.css",
-    "main.js": "/joliejoueurs/static/js/main.12a347d7.js",
+    "main.css": "/joliejoueurs/static/css/main.f31b271e.css",
+    "main.js": "/joliejoueurs/static/js/main.2f7de6f8.js",
     "static/media/arteezy.jpg": "/joliejoueurs/static/media/arteezy.c83d382d1212cb186749.jpg",
     "static/media/jerax.jpg": "/joliejoueurs/static/media/jerax.27f9b78380b422c9818e.jpg",
     "static/media/smash.png": "/joliejoueurs/static/media/smash.204b1c510f5501b0b3bf.png",
@@ -37,11 +37,11 @@
     "static/media/valorant.jpg": "/joliejoueurs/static/media/valorant.55c163726db342b130fe.jpg",
     "static/media/super.png": "/joliejoueurs/static/media/super.28639b98cce682773e6f.png",
     "index.html": "/joliejoueurs/index.html",
-    "main.0dfdedfd.css.map": "/joliejoueurs/static/css/main.0dfdedfd.css.map",
-    "main.12a347d7.js.map": "/joliejoueurs/static/js/main.12a347d7.js.map"
+    "main.f31b271e.css.map": "/joliejoueurs/static/css/main.f31b271e.css.map",
+    "main.2f7de6f8.js.map": "/joliejoueurs/static/js/main.2f7de6f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dfdedfd.css",
-    "static/js/main.12a347d7.js"
+    "static/css/main.f31b271e.css",
+    "static/js/main.2f7de6f8.js"
   ]
 }
